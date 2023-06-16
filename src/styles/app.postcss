@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: var(--font-family-primary);
+	color: var(--color-text);
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	background-color: var(--color-background);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+button {
+	overflow-wrap: break-word;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+	background-color: var(--color-accent);
+	color: var(--color-text);
+	border: none;
+	outline: none;
+	padding: var(--padding-xs);
+}
+
+:root {
+	/* Colors */
+	--color-primary: oklch(0.52 0.05 245);
+	--color-secondary: oklch(0.63 0.1 180);
+	--color-accent: oklch(0.58 0.17 245);
+	--color-background: oklch(0 0 0);
+	--color-text: oklch(1 0 0);
+	--color-text-secondary: oklch(0.8 0.17 180);
+	--color-text-accent: oklch(0.8 0.17 245);
+
+	/* Typography */
+	--font-family-primary: "Roboto", sans-serif;
+	--font-family-secondary: "Roboto", sans-serif;
+	--font-family-accent: "Roboto", sans-serif;
+	--font-size-sm: 0.875rem;
+	--font-size-md: 1rem;
+	--font-size-lg: 1.125rem;
+	--font-size-xl: 1.25rem;
+	--font-size-2xl: 1.5rem;
+	--font-size-3xl: 1.875rem;
+	--font-size-4xl: 2.25rem;
+	--font-size-5xl: 3rem;
+	--font-size-6xl: 4rem;
+	--font-weight-light: 300;
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-bold: 700;
+	--font-weight-black: 900;
+	--line-height-default: 1.5;
+	--line-height-tight: 1.25;
+	--line-height-loose: 2;
+	--letter-spacing-tight: -0.05em;
+	--letter-spacing-normal: 0;
+	--letter-spacing-wide: 0.05em;
+
+	/* Spacing */
+	--spacing-2xs: 0.25rem;
+	--spacing-xs: 0.5rem;
+	--spacing-sm: 1rem;
+	--spacing-md: 1.5rem;
+	--spacing-lg: 2rem;
+	--spacing-xl: 3rem;
+	--spacing-2xl: 4rem;
+
+	/* Padding */
+	--padding-2xs: 0.25rem;
+	--padding-xs: 0.5rem;
+	--padding-sm: 1rem;
+	--padding-md: 1.5rem;
+	--padding-lg: 2rem;
+	--padding-xl: 3rem;
+	--padding-2xl: 4rem;
+
+	/* Border radius: */
+	--border-radius-none: 0;
+	--border-radius-sm: 0.125rem;
+	--border-radius-md: 0.25rem;
+	--border-radius-lg: 0.5rem;
+	--border-radius-xl: 1rem;
+	--border-radius-circle: 99999rem;
+
+	/* Shadows */
+	--shadow-none: none;
+	--shadow-xs: 0 0.125rem 0.25rem oklch(0 0 0 / 0.075);
+	--shadow-sm: 0 0.25rem 0.5rem oklch(0 0 0 / 0.075);
+	--shadow-md: 0 0.5rem 1rem oklch(0 0 0 / 0.075);
+	--shadow-lg: 0 1rem 2rem oklch(0 0 0 / 0.075);
+	--shadow-xl: 0 1.5rem 3rem oklch(0 0 0 / 0.075);
+	--shadow-inner: inset 0 0 0.5rem oklch(0 0 0 / 0.075);
+
+	/* Z-Index */
+	--z-index-base: 0;
+	--z-index-dropdown: 1000;
+	--z-index-sticky: 1020;
+	--z-index-fixed: 1030;
+	--z-index-modal-backdrop: 1040;
+	--z-index-modal: 1050;
+	--z-index-popover: 1060;
+	--z-index-tooltip: 1070;
+	--z-index-toast: 1080;
+
+	/* Transitions */
+	--transition-short: 0.2s ease-in-out;
+	--transition-medium: 0.4s ease-in-out;
+	--transition-long: 0.6s ease-in-out;
+
+	/* Containers */
+	--container-xs: 20rem;
+	--container-sm: 28rem;
+	--container-md: 36rem;
+	--container-lg: 42rem;
+	--container-xl: 48rem;
+	--container-2xl: 64rem;
+
+	/* PostCss Breakpoints */
+	--viewport-sm: 40rem;
+	--viewport-md: 48rem;
+	--viewport-lg: 64rem;
+	--viewport-xl: 80rem;
+	--viewport-2xl: 96rem;
+}
