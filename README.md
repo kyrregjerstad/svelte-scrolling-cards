@@ -1,19 +1,19 @@
-# SvelteKit Template
+# Card Scroller
 
-This is a SvelteKit project template configured with your preferred settings and file structure.
+Deployed at: [scroller.kyrre.dev](https://scroller.kyrre.dev)
 
 ## Getting Started
 
 1. **Clone the project**
 
 ```bash
-git clone https://github.com/kyrregjerstad/svelteKit-template.git
+git clone https://github.com/kyrregjerstad/svelte-scrolling-cards
 ```
 
 2. **Navigate into the project directory**
 
 ```bash
-cd your-template-repo
+cd svelte-scrolling-cards
 ```
 
 3. **Install the dependencies**
